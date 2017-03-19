@@ -468,9 +468,6 @@
 	<body>
 		<div class="site-overlay"></div>
 		<div id="container" class="container">
-			<div class="menu-btn">
-				<i class="fa fa-navicon"></i>
-			</div>
 			<div class="col">
 				<h1>My Quest To Conquer the world of Baseball DFS - Part 1</h1><br>
         <h4><strong>Tate Campbell - March 19, 2017</strong></h4><br>
@@ -608,23 +605,8 @@
         <h2>What's next</h2>
         <p class="hyphenate text" lang="en">My next order of business will be to develop a regression model to predict pitcher's fantasy points. This endeavor will undoubtedly be more complex as each pitcher is going up against 9 batters. My initial thoughts on how this might be accomplished are that a pitcher's fantasy points could be segmented down to individual batters, then a prediction for an entire game would be the sum of all 9 BvP predictions plus some win EV component.</p>
         <p class="hyphenate text" lang="en">After both models are complete I plan to develop a script that takes a DraftKings Salary csv file as input and fetches all the relevant covariates so projections can be made for any given MLB slate. Lastly I'll need to implement some sort of optimization which will allow me to generate optimal lineups based on the projections.</p>
-        <p class="hyphenate text" lang="en">I'll continue detail my progress here when time permits, hopefully I'll get this beast up and running before the season starts so I can show how well the system is performing on a nightly basis. Please feel free to follow me on twitter <a href="https://twitter.com/lolskee">@lolskee</a>. </p>
-       
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
-		<script src="http://cdn.jsdelivr.net/pushy/0.9.1/pushy.min.js"></script>
-		<script src="http://cdn.rawgit.com/englishextra/shimansky.biz-hyphenator/5a842bf8893034c4cbf5dd845de591d15d752110/4.2.0/js/hyphenator.min.js"></script>
-		<script>
-				/*! Pushy - v0.9.1 - 2013-9-16
-				* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
-				* https://github.com/christophery/pushy/
-				* by Christopher Yee */
-				/*"undefined"!==typeof window.jQuery&&$(function(){function k(){f.toggleClass(g);c.toggleClass(q);d.toggleClass(r);h.toggleClass(s)}function l(){f.addClass(g);c.animate({left:"0px"},a);d.animate({left:e},a);h.animate({left:e},a)}function m(){f.removeClass(g);c.animate({left:"-"+e},a);d.animate({left:"0px"},a);h.animate({left:"0px"},a)}var c=$(".pushy"),f=$("body"),d=$("#container"),h=$(".push"),n=$(".site-overlay"),q="pushy-left pushy-open",g="pushy-active",r="container-push",s="push-push",p=$(".menu-btn, .pushy a"),a=200,e=c.width()+ "px";if(Modernizr.csstransforms3d)p.click(function(){k()}),n.click(function(){k()});else{c.css({left:"-"+e});d.css({"overflow-x":"hidden"});var b=!0;p.click(function(){b?(l(),b=!1):(m(),b=!0)});n.click(function(){b?(l(),b=!1):(m(),b=!0)})}});*/
-				/*!
-				 * toTop fixed script that actually doesn't need jQuery
-				 */
-				(function(e,f,a,h,k){b=document.createElement("a");b.setAttribute("style","display:none;");b.setAttribute("href","#");b.setAttribute("id",h);b.setAttribute("onclick","function scrollTop2(c){var b=window.pageYOffset,d=0,e=setInterval(function(b,a){return function(){a-=b*c;window.scrollTo(0,a);d++;(150<d||0>a)&&clearInterval(e)}}(c,b--),50)};scrollTop2(100);return false;");c=document.createElement("span");c.setAttribute("id",k);b.appendChild(c);d=document.createTextNode("\u041d\u0430\u0432\u0435\u0440\u0445");b.appendChild(d);e.appendChild(b);f.onscroll=function(){var e=f.pageYOffset||a.documentElement.scrollTop||a.body.scrollTop,k=f.innerHeight||a.documentElement.clientHeight||a.body.clientHeight,g=a.getElementById(h)||"";g&&(e>k?g.style.display="inline":g.style.display="none")}})(document.getElementsByTagName("body")[0]||document.documentElement,window,document,"toTop","toTopHover");
-		</script>
+        <p class="hyphenate text" lang="en">I'll continue detail my progress here when time permits, hopefully I'll get this beast up and running before the season starts so I can show how well the system is performing on a nightly basis. Please feel free to follow me on twitter <a href="https://twitter.com/lolskee">@lolskee</a>.</p>
+        <p><a href="https://lolskee.github.io">Back to Home Page</a></p>
   
   
 </body>
