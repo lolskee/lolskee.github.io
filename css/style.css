@@ -34,6 +34,26 @@ body {
 	background: linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%);
 }
 
+.table{
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align: middle;
+    float: right;
+}
+
+.twitterborder {
+    width:300px;
+    height:300px;
+    margin-top:3px;
+    margin-right:5%;
+    float:right;
+    text-align: center;
+}
+
 header, footer, article, section, nav, {
 	/* Giving a display value to the HTML5 rendered elements: */
 	display:block;
