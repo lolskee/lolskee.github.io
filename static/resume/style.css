@@ -251,7 +251,7 @@ header p {
 }
 
 .work-listing .highlight, .content-text.skills-listing > ul > li > .highlight {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Open Sans";
   font-size: 0.75em;
   font-weight: 400;
   
@@ -313,5 +313,5 @@ header p {
 }
 
 .highlight:hover, .content-text.skills-listing > ul > li > .highlight:hover {
-  border-left:1px solid #9e9e9e;
+  border-left: 1px solid #9e9e9e;
 }
