@@ -251,16 +251,16 @@ header p {
 }
 
 .work-listing .highlight, .content-text.skills-listing > ul > li > .highlight {
-  font-family: "Open Sans";
-  font-size:0.7em;
-  font-weight:400;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.75em;
+  font-weight: 400;
   
   color: #424242;
   
-  margin-left:3.25em;
-  padding-left:0.5em;
+  margin-left: 3.25em;
+  padding-left: 0.5em;
   
-  border-left:1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
   
 }
 
@@ -273,16 +273,16 @@ header p {
 }
 
 .education-listing > .highlight {
-  margin-left:3.25em;
+  margin-left: 3.25em;
   font-family: 'Roboto Slab', serif;
 }
 
 .content-text.skills-listing > ul {
-  display:table-row;
+  display: table-row;
 }
 
 .content-text.skills-listing > ul:last-child {
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 .content-text.skills-listing > ul > li {
@@ -302,10 +302,10 @@ header p {
 
 .content-text.skills-listing > ul > li > .highlight {
   
-  font-size:1em;
-  font-weight:400;
+  font-size: 0.75em;
+  font-weight: 400;
   
-  margin-left:1.25em;
+  margin-left: 1.25em;
 }
 
 .highlight {
